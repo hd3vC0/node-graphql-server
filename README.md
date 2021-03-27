@@ -17,8 +17,13 @@ Then download all dependencies:
 ```
 npm install
 ```
+Create an environment file called ```.env``` and add the following information:
 
-And run in develop mode:
+```
+PORT=7000
+```
+
+Run in develop mode:
 
 ```
 npm start dev
